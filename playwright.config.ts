@@ -13,7 +13,7 @@ export default defineConfig({
     reuseExistingServer: !process.env.CI,
     env: {
       ...process.env,
-      VITE_CURRENCYBEACON_API_KEY: process.env.VITE_CURRENCYBEACON_API_KEY || 'test-key',
+      API_KEY: process.env.API_KEY || 'test-key',
     },
   },
 })

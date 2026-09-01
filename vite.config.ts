@@ -11,6 +11,7 @@ const proxy = {
 
 export default defineConfig({
   plugins: [react()],
+  envPrefix: 'API_',
   server: { proxy },
   preview: { proxy },
   test: {
@@ -18,7 +19,7 @@ export default defineConfig({
     setupFiles: './tests/setup.ts',
     include: ['tests/**/*.test.{ts,tsx}'],
     env: {
-      VITE_CURRENCYBEACON_API_KEY: 'test-key',
+      API_KEY: 'test-key',
     },
   },
 })

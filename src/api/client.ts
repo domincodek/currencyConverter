@@ -4,7 +4,7 @@ const BASE_PATH = '/api/v1'
 
 function buildUrl(path: string, params: Record<string, string>) {
   const search = new URLSearchParams({
-    api_key: import.meta.env.VITE_CURRENCYBEACON_API_KEY ?? '',
+    api_key: import.meta.env.API_KEY ?? '',
     ...params,
   })
   return `${BASE_PATH}${path}?${search}`
