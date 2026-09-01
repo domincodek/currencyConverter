@@ -1,9 +1,9 @@
 ## Description
 
-Unit tests - vitest
-E2E - playwright
-Code formating - Prettier
-Styles - mobile first, scss, css variables, rem
+- Unit tests - vitest
+- E2E - playwright
+- Code formating - Prettier
+- Styles - mobile first, scss, css variables, rem
 
 ## Setup
 
